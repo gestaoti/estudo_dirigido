@@ -32,7 +32,7 @@ salario_com_aumento = float(porcento_aumento_salarial / 100 * salario_atual)
 print("Você recebeu um aumento de:",porcento_aumento_salarial*salario_atual/100,"seu salário passou a ser: ",salario_com_aumento+salario_atual)
 
 #-----------------------------------------------------
-
+a
 #5 preço desconto
 preco_mercadoria = float(input("Digite o preço da mercadoria: ")) 
 desconto = float(input("Digite a porcentagem de desconto: ")) 
@@ -82,4 +82,37 @@ litros_necessarios = (metros_a_pintar / 6)
 #questao a)
 latas_necessarias = math.ceil(litros_necessarios / 18)
 print(latas_necessarias)
+
+#questao b)
+galoes_necessarios = math.ceil(litros_necessarios / 3.6)
+print("sera necessario: ", galoes_necessarios, " galoes")
+
+#questao c)
+latas_necessarias = int(litros_necessarios / 18)
+faltou = litros_necessarios % 18
+galoes_necessarios = math.ceil(faltou / 3.6)
+
+print("foram necessarios ", latas_necessarias, "latas")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
